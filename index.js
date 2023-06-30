@@ -20,7 +20,7 @@ const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
  */
 client.on("ready", () => {
    function randomStatus() {
- let status = ["Android Discord", "MUSIC", "50,000 guilds", "ad!help | ad!play"]
+ let status = [".help", "Sᴋ ⌬ Mᴜsɪᴄ"]
 let rstatus = Math.floor(Math.random() * status.length);
 
 client.user.setActivity(status[rstatus], {type: "WATCHING" });
